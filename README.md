@@ -1,0 +1,1 @@
+[figma design](https://www.figma.com/file/op6oyRpvEUDaLlsJrp63EL/Recipe-Finder-App---Landinge-page(Responsive-design)-(Community)?type=design&node-id=92-125&mode=design&t=TO8cF1mXdyfvo0R9-0)
