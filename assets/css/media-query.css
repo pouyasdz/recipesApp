@@ -1,8 +1,26 @@
-/* mobile */
-@media only screen and (min-width: 320px){}
-
 /* tablet */
-@media only screen and (min-width: 500px){} 
+@media only screen and (min-width: 500px){
+    header{
+        height: 120px;
+        flex-direction: row !important;
+        align-items: center !important;
+    }
+
+    header .top{
+        padding-left: 5rem !important;
+        padding-right: 5rem !important;
+        height: 100% !important;
+    }
+    header .top h1 {
+        margin: 0 !important;
+    }
+    header .top i {
+        display: none;
+    }
+    header .bottom {
+        display: none !important;
+    }
+} 
 
 /* laptop */
 @media only screen and (min-width: 770px){}

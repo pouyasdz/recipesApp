@@ -3,3 +3,36 @@
 @import "globals.css";
 @import "media-query.css";
 /* end import */
+
+header{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F6B100;
+}
+
+header .top, .bottom{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+header .top{
+}
+.top i {
+    font-size: 32px;
+}
+.top h1{
+    font-size: 32px;
+    margin: auto;
+}
+.top h1 span {
+    font-weight: 500;
+}
+
+header .bottom{
+
+}
