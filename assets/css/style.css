@@ -4,6 +4,7 @@
 @import "media-query.css";
 /* end import */
 
+/* start header */
 header{
     width: 100%;
     height: 100px;
@@ -11,8 +12,7 @@ header{
     flex-direction: column;
     background-color: #F6B100;
 }
-
-header .top, .bottom{
+header .top, header .bottom{
     width: 100%;
     height: 50px;
     display: flex;
@@ -20,8 +20,6 @@ header .top, .bottom{
     align-items: center;
 }
 
-header .top{
-}
 .top i {
     font-size: 32px;
 }
@@ -35,7 +33,29 @@ header .top{
 .top ul {
     display: none;
 }
+/* end header */
 
-header .bottom{
-
+/* start container items */
+.container {
+    margin-top: 1rem;
 }
+.container h3 {
+    font-size: 24px;
+    font-weight: 700;
+}
+.container .features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+.container .features p {
+    color: #F6B100;
+    font-size: 18px;
+    font-weight: 600;
+}
+.container .features a {
+    color: #9F9F9F;
+    font-size: 14px;
+}
+/* end container items */
