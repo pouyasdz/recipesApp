@@ -29,6 +29,10 @@
     header .bottom {
         display: none !important;
     }
+
+    .container {
+        width: 90% !important;
+    }
 } 
 
 /* laptop */
