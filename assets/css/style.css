@@ -32,6 +32,9 @@ header .top{
 .top h1 span {
     font-weight: 500;
 }
+.top ul {
+    display: none;
+}
 
 header .bottom{
 

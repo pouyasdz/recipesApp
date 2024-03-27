@@ -14,8 +14,17 @@
     header .top h1 {
         margin: 0 !important;
     }
-    header .top i {
+    header .top .hamburger-menu {
         display: none;
+    }
+    header .top ul {
+        display: flex !important;
+        margin-left: auto;
+        gap: 2rem;
+        color: white;
+    }
+    .top ul li {
+        cursor: pointer;
     }
     header .bottom {
         display: none !important;

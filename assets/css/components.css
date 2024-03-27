@@ -19,6 +19,11 @@
     font-weight: 600;
 }
 
+.input-controll input[type="text"]::placeholder {
+    letter-spacing: 1.2px;
+    font-weight: 400;
+}
+
 .input-controll i {
     font-size: 24px;
     opacity: 50%;
