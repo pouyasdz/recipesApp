@@ -33,6 +33,10 @@
     .container {
         width: 90% !important;
     }
+
+    .mobileCtaImage {
+        display: none;
+    }
 } 
 
 /* laptop */

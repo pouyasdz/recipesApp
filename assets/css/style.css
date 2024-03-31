@@ -43,19 +43,61 @@ header .top, header .bottom{
     font-size: 24px;
     font-weight: 700;
 }
-.container .features {
+.container .heading-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 5px;
 }
-.container .features p {
+.container h5 {
     color: #F6B100;
     font-size: 18px;
     font-weight: 600;
 }
-.container .features a {
+.container .heading-section a {
     color: #9F9F9F;
     font-size: 14px;
 }
 /* end container items */
+
+/* start mobileImageCta*/
+.mobileCtaImage {
+    width: 100%;
+}
+/* end mobileImageCta*/
+
+/* start benefits section */
+.benefits-section {
+    width: 100%;
+    display: flex;
+    margin-top: 1rem;
+}
+.benefits-section .food-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.food-list .food {
+    width: 100%;
+    height: 88px;
+    padding: 8px;
+    margin-bottom: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.food-list .food .detail {}
+.food .detail p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.food .detail span{
+    font-size: 14px;
+    font-weight: 500;
+    color: #F6B100;
+}
+
+.benefits-section .cta-list {
+    display: none;
+}
+/* end benefits section */
