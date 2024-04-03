@@ -34,13 +34,38 @@
         width: 90% !important;
     }
 
-    .mobileCtaImage {
-        display: none;
+    .mobile{
+        display: none !important;
+    }
+    .benefits-section .food-list {
+        justify-content: space-between;
+    }
+    .benefits-section .cta-list {
+        display: flex !important;
+        flex-direction: column !important;
+        height: 100%;
+        justify-content: space-between !important;
+    }
+    .benefits-section .cta-list img {
+        content: url("../public/images/tabletCta.png") !important;
     }
 } 
 
 /* laptop */
-@media only screen and (min-width: 770px){}
+@media only screen and (min-width: 770px){
+}
 
 /* desktop */
-@media only screen and (min-width: 1025px){}
+@media only screen and (min-width: 1025px){
+    .benefits-section {
+        height: 70vh !important;
+    }
+    .benefits-section .food-list .food img {
+        width: 180px;
+        height: 98px;
+        object-fit: contain;
+    }
+    .benefits-section .cta-list img {
+        content: url("../public/images/desktopCta.png") !important;
+    }
+}
