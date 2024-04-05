@@ -105,3 +105,13 @@
   overflow-x: auto;
 }
 /* end healthy container */
+
+
+/* start colors */
+.bg-brown {
+  background-color: #D8996C;
+}
+.bg-purple {
+  background-color: #56548C;
+}
+/* end colors */

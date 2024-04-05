@@ -149,3 +149,68 @@ header .bottom {
   display: none;
 }
 /* end benefits section */
+
+
+/* start comments */
+.comments-section{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.comment-block{
+  width: 100%;
+  height: 161px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.comment-block .comment-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  margin-right: 2rem;
+  color: #9F9F9F;
+}
+.comment-block .comment-author{
+  width: 100%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.comment-author .profile-box {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: bottom;
+}
+.comment-author p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.comment-block .comment-content {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+}
+.comment-block .comment-detail{
+width: 100%;
+display: flex;
+gap: 10px;
+}
+.comment-detail p {
+  font-size: 15px;
+  color: #9F9F9F;
+  font-weight: 500;
+}
+.comment-detail i {
+  color: #FF0B0B;
+  font-size: 17px;
+}
+/* end comments */

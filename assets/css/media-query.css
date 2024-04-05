@@ -34,9 +34,11 @@
         width: 90% !important;
     }
 
-    .mobile{
-        display: none !important;
-    }
+    
+} 
+
+/* laptop */
+@media only screen and (min-width: 770px){
     .benefits-section .food-list {
         justify-content: space-between;
     }
@@ -49,17 +51,14 @@
     .benefits-section .cta-list img {
         content: url("../public/images/tabletCta.png") !important;
     }
-} 
-
-/* laptop */
-@media only screen and (min-width: 770px){
+    .benefits-section {
+        height: 90vh !important;
+    }
 }
 
 /* desktop */
 @media only screen and (min-width: 1025px){
-    .benefits-section {
-        height: 70vh !important;
-    }
+    
     .benefits-section .food-list .food img {
         width: 180px;
         height: 98px;
@@ -67,5 +66,8 @@
     }
     .benefits-section .cta-list img {
         content: url("../public/images/desktopCta.png") !important;
+    }
+    .healthy-container {
+        overflow: none !important;
     }
 }
