@@ -34,7 +34,8 @@
         width: 90% !important;
     }
 
-    
+    .mobile{display: none !important;}
+    nav{display: none !important;}
 } 
 
 /* laptop */
@@ -68,6 +69,6 @@
         content: url("../public/images/desktopCta.png") !important;
     }
     .healthy-container {
-        overflow: none !important;
+        overflow: hidden !important;
     }
 }

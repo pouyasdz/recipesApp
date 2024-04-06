@@ -15,7 +15,7 @@ body {
 }
 
 main {
-  padding-bottom: 10rem;
+  padding-bottom: 20rem;
 }
 
 ul {
@@ -33,9 +33,7 @@ button {
   cursor: pointer;
 }
 
-.mobile{
-  display: none !important;
-}
+
 /* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
 /** {
   scrollbar-width: thin;
